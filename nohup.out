@@ -1,0 +1,22 @@
+numCPUs 1
+Worker 5708
+numCPUs 1
+Worker 5714
+numCPUs 1
+Worker 5747
+
+/home/ec2-user/cluster2/bin/www:58
+    throw error;
+          ^
+Error: bind EADDRINUSE
+    at errnoException (net.js:901:11)
+    at net.js:1073:26
+    at Object.1:1 (cluster.js:587:5)
+    at handleResponse (cluster.js:171:41)
+    at respond (cluster.js:192:5)
+    at handleMessage (cluster.js:202:5)
+    at process.EventEmitter.emit (events.js:117:20)
+    at handleMessage (child_process.js:318:10)
+    at child_process.js:392:7
+    at process.handleConversion.net.Native.got (child_process.js:91:7)
+worker 5747 died
